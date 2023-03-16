@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Lindy Finance',
-  tagline: 'Compre e ganhe renda passavia na blockchain Conflux',
+  tagline: 'Compre tokens da Conflux em reais e mande direto pra sua carteira na rede, sem corretoras',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Lindy Finance',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -74,14 +74,14 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Material de Apoio',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            href: 'http://139.59.112.32:3000/pool/core/0x8a2fa96a1e0f228b829f300bfba3399c51d4a9f8',
+            label: 'App',
+            position: 'left',
           },
+
         ],
       },
       footer: {
@@ -93,6 +93,11 @@ const config = {
               {
                 label: 'Tutorial',
                 to: '/docs/intro',
+              },
+              {
+                href: 'https://github.com/facebook/docusaurus',
+                label: 'GitHub',
+                position: 'right',
               },
             ],
           },
