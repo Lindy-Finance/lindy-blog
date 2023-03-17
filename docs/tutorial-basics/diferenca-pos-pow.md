@@ -28,4 +28,4 @@ Para ganhar com a mineração PoS, é necessário possuir uma quantidade signifi
 
 Conclusão
 
-Em resumo, a principal diferença entre a Proof of Work e a Proof of Stake é o método de validação de transações. A PoW exige que os mineradores resolvam problemas matemáticos complexos, enquanto a PoS escolhe os mineradores com base na quantidade de criptomoedas que possuem e bloqueiam. Ambas as formas de mineração têm suas vantagens e
+Em resumo, a principal diferença entre a Proof of Work e a Proof of Stake é o método de validação de transações. A PoW exige que os mineradores resolvam problemas matemáticos complexos, enquanto a PoS escolhe os mineradores com base na quantidade de criptomoedas que possuem e bloqueiam. Ambas as formas de mineração têm suas vantagens e isso
