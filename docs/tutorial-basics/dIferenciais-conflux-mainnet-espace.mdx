@@ -9,12 +9,17 @@ tags: [docusaurus]
 # Conflux Mainnet e eSpace - Seus diferenciais
 Conflux Mainnet e eSpace são duas partes diferentes do ecossistema da Conflux Network.
 
+
+
+O Conflux possui uma máquina virtual semelhante ao EVM. No entanto, ainda existem algumas diferenças consideráveis ​​entre Conflux e Ethereum. O Conflux usa um formato de transação diferente e uma regra diferente para gerar endereços de chaves públicas. Essas diferenças geralmente dificultam a portabilidade de dApps compatíveis com EVM para o Conflux. Substituindo o CIP-72 e o CIP-80, o CIP-90 apresenta um ambiente de execução de transações chamado Conflux eSpace . O eSpace alcança compatibilidade total com EVM sem alterar as contas e transações existentes.
+
+O CIP-90 apresenta um novo espaço totalmente compatível com EVM. O novo espaço é chamado de Conflux eSpace , enquanto o espaço atual é chamado de Conflux Core space. O Conflux eSpace segue a mesma regra do EVM da Ethereum e suporta RPCs como eth_getBalance. Como resultado, as ferramentas existentes do ecossistema Ethereum (MetaMask, Truffle, Remix, Hardhat, web3.js, ethers.js) podem ser usadas diretamente no Conflux eSpace.
+
+As contas no Conflux Core e no Conflux eSpace são separadas . Isso significa que as transações Conflux só podem ser enviadas entre contas de espaço principal (usando seus endereços CIP-37 base32), enquanto as transações EIP-155 compatíveis com Ethereum só podem ser enviadas entre contas eSpace (usando seus endereços hexadecimais EIP-55 ). Ativos e dados podem ser transferidos entre os dois espaços usando o novo CrossSpaceCallcontrato interno. Ao contrário das operações de cadeia cruzada, as operações de espaço cruzado são atômicas e têm segurança de camada 1.
+
 Conflux Mainnet é a blockchain pública principal da Conflux Network, projetada para oferecer alta escalabilidade e segurança. Ele usa um algoritmo de consenso Proof of Work em camada 1 (chamado Tree-Graph) combinado com uma arquitetura de camada 2 (chamada State-Channel) para atingir altos níveis de transações por segundo. A Conflux Mainnet é aberta a todos os usuários e desenvolvedores para construir e implantar aplicativos descentralizados.
 
 eSpace, por outro lado, é uma plataforma de desenvolvimento de dApps (aplicativos descentralizados) construída em cima da Conflux Mainnet. Ele fornece uma série de ferramentas e recursos para ajudar os desenvolvedores a criar e implantar aplicativos na blockchain da Conflux. Alguns dos recursos do eSpace incluem uma carteira de criptomoedas integrada, um ambiente de desenvolvimento integrado (IDE) para escrever e testar contratos inteligentes e uma ampla gama de ferramentas e bibliotecas de desenvolvimento.
 
 Resumindo, enquanto a Conflux Mainnet é a blockchain pública principal da Conflux Network, o eSpace é uma plataforma de desenvolvimento de aplicativos descentralizados construída em cima dela. A Conflux Mainnet é a base técnica para o eSpace, permitindo aos desenvolvedores criar aplicativos escaláveis e seguros na blockchain da Conflux.
-
-
-
 
