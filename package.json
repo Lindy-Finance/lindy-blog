@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "2.3.1",
+    "@docusaurus/plugin-ideal-image": "^2.3.1",
     "@docusaurus/preset-classic": "2.3.1",
     "@docusaurus/theme-search-algolia": "^2.3.1",
     "@mdx-js/react": "^1.6.22",
@@ -40,6 +41,6 @@
     ]
   },
   "engines": {
-    "node": "16.19"
+    "node": "16.19.0"
   }
 }
